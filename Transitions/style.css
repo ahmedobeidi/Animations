@@ -14,6 +14,7 @@
   max-width: 100%;
   height: auto;
   z-index: 1;
+  transition: transform 2s;
 }
 .item .caption {
   width: 100%;
@@ -42,18 +43,24 @@
   padding: 10px;
   margin-top: 10px;
   text-decoration: none;
-  transform: scale(1);
+  transition: transform 2s;
 }
 .item .caption a:hover {
  transform: scale(1.2);
  
 }
 .item:hover img {
-  transform: translateY(-10px);
+  transform: translateY(-100px);
 }
 .item:hover .caption {
   bottom: 0;
 }
+
+/* .rectangle{
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+} */
 
 
 
